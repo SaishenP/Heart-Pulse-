@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(236, 65, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Sossy Frass', cursive;
+    }
+    .text-box{
+        width: 90%;
+        color:aliceblue;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    
+    .Heart{
+        font-size: 10rem;
+        animation: Heart .5s infinite alternate-reverse;
+        align-items: center;
+        
+    }
+
+    @keyframes Heart
+     {
+        from{
+            transform: scale(.7);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
